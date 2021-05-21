@@ -15,8 +15,6 @@ public multiStyles = {
    fontStyle : "italic",
    backgroundColor : "pink"
 }
-
-
   constructor() { }
 
   ngOnInit() {
