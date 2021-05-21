@@ -6,7 +6,8 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./property-binding.component.css']
 })
 export class PropertyBindingComponent implements OnInit {
-
+public test = "testing";
+public isDisabled = true;
   constructor() { }
 
   ngOnInit() {

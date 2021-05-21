@@ -6,7 +6,7 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./attribute-binding.component.css']
 })
 export class AttributeBindingComponent implements OnInit {
-
+public actionName = "mifdha"
   constructor() { }
 
   ngOnInit() {
