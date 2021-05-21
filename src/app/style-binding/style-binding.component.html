@@ -1,1 +1,5 @@
-<p>style-binding works!</p>
+<h1>Style Binding</h1>
+<p [style.color]="'green'">style has been binded to this text</p>
+<p [style.color]="hasError ? 'red' : 'green' ">style has been binded to this text using a constional expression</p>
+<p [style.background-color]="bgColor">style has been binded to this text</p>
+<p [ngStyle]= "multiStyles">multiple style has been binded to this text using NgStyle</p>

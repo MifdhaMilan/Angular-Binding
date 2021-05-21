@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { ArgumentOutOfRangeError } from 'rxjs';
 
 @Component({
   selector: 'app-style-binding',
@@ -6,6 +7,15 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./style-binding.component.css']
 })
 export class StyleBindingComponent implements OnInit {
+public hasError = false;
+public bgColor = "orange";
+
+public multiStyles = {
+   color: "blue",
+   fontStyle : "italic",
+   backgroundColor : "pink"
+}
+
 
   constructor() { }
 
